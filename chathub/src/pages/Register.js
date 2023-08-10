@@ -8,8 +8,8 @@ const Register = () => {
         <div className=' bg-white py-5 px-16 rounded-lg items-center flex flex-col gap-2'>
             <span className=' font-bold text-lg'>ChatHub</span>
             <span className=' font-semibold'>Register</span>
-            <form className=' flex flex-col gap-6 border-solid'>
-                <input type='text'className=' placeholder-grey-200 ' placeholder='display name'/>
+            <form className=' flex flex-col gap-4 border-solid'>
+                <input type='text'className=' placeholder-grey-200' placeholder='display name'/>
                 <input type='eamil'className=' placeholder-grey-200 ' placeholder='email'/>
                 <input type='password'className=' placeholder-grey-200 ' placeholder='password'/>
                 <input type='file'className=' placeholder-grey-200 ' style={{display: 'none'}} id='file'/>

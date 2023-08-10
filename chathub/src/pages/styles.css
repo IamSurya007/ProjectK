@@ -1,6 +1,8 @@
 input{
-    padding: 50px;
+    padding: 8px;
     border: none;
-    width: 250px;
+    width: 270px;
     border-bottom: 1px solid #a7bcff;
+    outline: none;
+    gap: 4px;
 }
