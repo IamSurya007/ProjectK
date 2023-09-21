@@ -2,7 +2,17 @@ input{
     padding: 8px;
     border: none;
     width: 270px;
-    border-bottom: 1px solid #a7bcff;
     outline: none;
     gap: 4px;
 }
+  
+  @media (max-width: 767px) {
+    .responsive-sidebar {
+      display: none;
+    }
+    .responsive-full {
+      display: block;
+      width: 100%;
+    }
+  }
+  
